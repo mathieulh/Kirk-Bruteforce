@@ -1,0 +1,15 @@
+#start stop locations of the hash, I think these should be assigned on the forums 
+#and not touched afterwards (so we don't waste time looking over the same parts of the hash)
+HASH_START = 0
+HASH_END = 0xffffffff
+
+#once a hash is found, copy the hash to the appropriate location below
+CURRENT_HASH0 = 0
+CURRENT_HASH1 = 0
+CURRENT_HASH2 = 0
+CURRENT_HASH3 = 0
+CURRENT_HASH4 = 0
+CURRENT_HASH5 = 0
+CURRENT_HASH6 = 0
+#this isn't needed, once we have this value, the hash is done
+CURRENT_HASH7 = 0
